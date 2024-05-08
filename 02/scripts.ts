@@ -1,4 +1,4 @@
-// const fs = require('fs')
+const fs = require('fs')
 
 const lerArquivo = (): unknown => {
     return JSON.parse(fs.readFileSync('./bd.json'))
